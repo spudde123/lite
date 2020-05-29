@@ -12,7 +12,7 @@ local RootView = require "core.rootview"
 local TreeView = View:extend()
 
 local root_context_options = { "Create file", "Create directory" }
-local dir_context_options = { "Create file", "Rename", "Delete" }
+local dir_context_options = { "Create file", "Create directory", "Rename", "Delete" }
 local file_context_options = { "Rename", "Delete" }
 local option_index = 1
 
